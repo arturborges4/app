@@ -57,7 +57,7 @@ namespace App.Persistense.Repositories
                 {
                     foreach(var entry in ex.Entries)
                     {
-                        throw new NotSupportedException("Ocorreu um erro em: " + entry.Metadata.Name)
+                        throw new NotSupportedException("Ocorreu um erro em: " + entry.Metadata.Name);
                     }
                 }
             }

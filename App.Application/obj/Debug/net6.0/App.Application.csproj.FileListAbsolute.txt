@@ -1,0 +1,12 @@
+C:\Users\Administrador\source\repos\App\App.Application\bin\Debug\net6.0\App.Application.deps.json
+C:\Users\Administrador\source\repos\App\App.Application\bin\Debug\net6.0\App.Application.dll
+C:\Users\Administrador\source\repos\App\App.Application\bin\Debug\net6.0\App.Application.pdb
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.dll
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\refint\App.Application.dll
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\App.Application.pdb
+C:\Users\Administrador\source\repos\App\App.Application\obj\Debug\net6.0\ref\App.Application.dll
