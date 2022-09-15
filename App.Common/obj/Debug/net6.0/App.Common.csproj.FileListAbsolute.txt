@@ -10,3 +10,15 @@ C:\Users\Administrador\source\repos\App\App.Common\obj\Debug\net6.0\App.Common.d
 C:\Users\Administrador\source\repos\App\App.Common\obj\Debug\net6.0\refint\App.Common.dll
 C:\Users\Administrador\source\repos\App\App.Common\obj\Debug\net6.0\App.Common.pdb
 C:\Users\Administrador\source\repos\App\App.Common\obj\Debug\net6.0\ref\App.Common.dll
+C:\Users\aluno.uri\Documents\app\App.Common\bin\Debug\net6.0\App.Common.deps.json
+C:\Users\aluno.uri\Documents\app\App.Common\bin\Debug\net6.0\App.Common.dll
+C:\Users\aluno.uri\Documents\app\App.Common\bin\Debug\net6.0\App.Common.pdb
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.csproj.AssemblyReference.cache
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.AssemblyInfoInputs.cache
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.AssemblyInfo.cs
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.csproj.CoreCompileInputs.cache
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.dll
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\refint\App.Common.dll
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\App.Common.pdb
+C:\Users\aluno.uri\Documents\app\App.Common\obj\Debug\net6.0\ref\App.Common.dll

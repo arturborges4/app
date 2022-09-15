@@ -214,6 +214,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "App.Application/1.0.0": {
         "dependencies": {
+          "App.Domain": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {

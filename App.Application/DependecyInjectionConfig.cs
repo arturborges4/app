@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using App.Application.Services;
+using App.Domain.Interfaces.Application;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,8 @@ namespace App.Application
     {
         public static void Inject(IServiceCollection service)
         {
-
+            service.AddTransient<IPessoaService, PessoaService>();
+            service.AddTransient<ICidadeService, CidadeService>();
         }
     }
 }

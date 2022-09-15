@@ -10,3 +10,15 @@ C:\Users\Administrador\source\repos\App\App.Domain\obj\Debug\net6.0\App.Domain.d
 C:\Users\Administrador\source\repos\App\App.Domain\obj\Debug\net6.0\refint\App.Domain.dll
 C:\Users\Administrador\source\repos\App\App.Domain\obj\Debug\net6.0\App.Domain.pdb
 C:\Users\Administrador\source\repos\App\App.Domain\obj\Debug\net6.0\ref\App.Domain.dll
+C:\Users\aluno.uri\Documents\app\App.Domain\bin\Debug\net6.0\App.Domain.deps.json
+C:\Users\aluno.uri\Documents\app\App.Domain\bin\Debug\net6.0\App.Domain.dll
+C:\Users\aluno.uri\Documents\app\App.Domain\bin\Debug\net6.0\App.Domain.pdb
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.csproj.AssemblyReference.cache
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.AssemblyInfoInputs.cache
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.AssemblyInfo.cs
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.dll
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\refint\App.Domain.dll
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\App.Domain.pdb
+C:\Users\aluno.uri\Documents\app\App.Domain\obj\Debug\net6.0\ref\App.Domain.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using App.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace App.Domain.Interfaces.Repositories
     {
         IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> where);
         void save(TEntity obj);
+        void Delete(Guid id);
         void update(TEntity obj);
         int SaveChanges();
         DbContext Context();

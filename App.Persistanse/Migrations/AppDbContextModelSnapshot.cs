@@ -24,7 +24,7 @@ namespace App.Persistense.Migrations
 
             modelBuilder.Entity("App.Domain.Entities.Cidade", b =>
                 {
-                    b.Property<Guid>("id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
@@ -40,9 +40,30 @@ namespace App.Persistense.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Cidades");
+                });
+
+            modelBuilder.Entity("App.Domain.Entities.Pessoa", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<char>("Sexo")
+                        .HasColumnType("character(1)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pessoas");
                 });
 #pragma warning restore 612, 618
         }

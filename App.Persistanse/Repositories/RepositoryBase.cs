@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using App.Domain.Entities;
 using App.Domain.Interfaces.Repositories;
 using App.Persistanse;
 using Microsoft.EntityFrameworkCore;
@@ -68,5 +69,15 @@ namespace App.Persistense.Repositories
         {
             _dbSetEntity.Update(obj);
         }
+        public void Delete(Guid id)
+        {
+            var data = _dbSetEntity.Find(id);
+            if(data != null)
+            {
+                _dbSetEntity.Remove(data);
+            }
+        }
+
+        
     }
 }

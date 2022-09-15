@@ -25,19 +25,42 @@ namespace App.Application.Services
             return retornoCidade;
         }
 
-        public List<Cidade> ListaCidades(string cep, string nome)
+        public List<Cidade> ListaCidades(string? cep, string? nome)
         {
-            throw new NotImplementedException();
+            var listaCidades = _repository.Query(
+
+                x => (cep == null || x.Cep.Contains(cep))
+                && (nome == null || x.Nome.Contains(nome))
+
+                ).ToList();
+
+            return listaCidades;
         }
 
         public void Remover(Guid id)
         {
-            throw new NotImplementedException();
+            _repository.Delete(id);
+            _repository.SaveChanges();
+
         }
 
         public void Salvar(Cidade obj)
         {
-            throw new NotImplementedException();
+            _repository.save(obj);
+            _repository.SaveChanges();
+        }
+
+        public void RemoverPorNome(string nome)
+        {
+            var cidade = _repository.Query(x => x.Nome == nome).FirstOrDefault();
+            if (cidade != null)
+            {
+                _repository.Delete(cidade.Id);
+            }
+            else
+            {
+                throw new Exception("Cidade nao encontrada");
+            }
+         }
         }
     }
-}

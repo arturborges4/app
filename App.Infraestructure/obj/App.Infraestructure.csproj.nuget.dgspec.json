@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\App\\App.Infraestructure\\App.Infraestructure.csproj": {}
+    "C:\\Users\\aluno.uri\\Documents\\app\\App.Infraestructure\\App.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\App\\App.Infraestructure\\App.Infraestructure.csproj": {
+    "C:\\Users\\aluno.uri\\Documents\\app\\App.Infraestructure\\App.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\App\\App.Infraestructure\\App.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\aluno.uri\\Documents\\app\\App.Infraestructure\\App.Infraestructure.csproj",
         "projectName": "App.Infraestructure",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Infraestructure\\App.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Infraestructure\\App.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\aluno.uri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aluno.uri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,8 +54,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\App\\App.Persistanse\\App.Persistense.csproj": {}
+    "C:\\Users\\aluno.uri\\Documents\\app\\App.Persistanse\\App.Persistense.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {
+    "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\obj\\",
+        "projectPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\App.Domain.csproj",
+        "packagesPath": "C:\\Users\\aluno.uri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aluno.uri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,8 +54,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,21 +63,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrador\\source\\repos\\App\\App.Persistanse\\App.Persistense.csproj": {
+    "C:\\Users\\aluno.uri\\Documents\\app\\App.Persistanse\\App.Persistense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\App\\App.Persistanse\\App.Persistense.csproj",
+        "projectUniqueName": "C:\\Users\\aluno.uri\\Documents\\app\\App.Persistanse\\App.Persistense.csproj",
         "projectName": "App.Persistense",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Persistanse\\App.Persistense.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Persistanse\\obj\\",
+        "projectPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Persistanse\\App.Persistense.csproj",
+        "packagesPath": "C:\\Users\\aluno.uri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Persistanse\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aluno.uri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +94,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\source\\repos\\App\\App.Domain\\App.Domain.csproj"
+              "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -132,8 +137,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -142,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
