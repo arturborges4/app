@@ -1,4 +1,5 @@
-﻿using App.Domain.Entities;
+﻿using App.Domain.DTO;
+using App.Domain.Entities;
 using App.Domain.Interfaces.Application;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,21 +19,64 @@ namespace App.Api.Controllers
         [HttpGet("BuscaPorNome")]
         public JsonResult BuscaPorNome(string nome)
         {
-            var minhaPessoa = _service.BuscaPorNome(nome);
-            return Json(minhaPessoa);
+            try
+            {
+                var minhaPessoa = _service.BuscaPorNome(nome);
+                return Json(RetornoApi.Sucesso(BuscaPorNome));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
 
         [HttpPost("Salvar")]
         public JsonResult Salva(string nome, int idade, char sexo)
         {
-            var objPessoa = new Pessoa
+            try
             {
-                Nome = nome,
-                Idade = idade,
-                Sexo = sexo
-            };
-            _service.Salvar(objPessoa);
-            return Json(true);
+                var objPessoa = new Pessoa
+                {
+                    Nome = nome,
+                    Idade = idade,
+                    Sexo = sexo
+                };
+                _service.Salvar(objPessoa);
+                return Json(RetornoApi.Sucesso(objPessoa));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
+        }
+
+        [HttpDelete("Remover pessoa por nome")]
+        public JsonResult RemoverPorNome(string nome)
+        {
+            try
+            {
+                _service.RemoverPorNome(nome);
+                return Json(RetornoApi.Sucesso(true));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
+
+        }
+
+        [HttpGet("ListaPessoas")]
+        public JsonResult ListaPessoas(string? nome, int? idade, char? sexo)
+        {
+            try
+            {
+                var obj = _service.ListaPessoas(nome, idade, sexo);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
 
     }

@@ -34,7 +34,21 @@ namespace App.Application.Services
         public void Remover(Guid id)
         {
             _repository.Delete(id);
+            _repository.SaveChanges();
 
+        }
+        public void RemoverPorNome(string nome)
+        {
+            var pessoa = _repository.Query(x => x.Nome == nome).FirstOrDefault();
+            if (pessoa != null)
+            {
+                _repository.Delete(pessoa.Id);
+                _repository.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("Pessoa nao encontrada");
+            }
         }
 
         public void Salvar(Pessoa obj)
@@ -43,7 +57,17 @@ namespace App.Application.Services
             _repository.SaveChanges();
         }
 
+        public List<Pessoa> ListaPessoas(string? nome, int? idade, char? sexo)
+        {
+            var listaPessoas = _repository.Query(
 
-        
+                x => (nome == null || x.Nome.Contains(nome))
+                
+
+                ).ToList();
+
+            return listaPessoas;
+        }
+
     }
 }

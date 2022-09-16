@@ -84,3 +84,4 @@ C:\Users\aluno.uri\Documents\app\App.Api\obj\Debug\net6.0\refint\App.Api.dll
 C:\Users\aluno.uri\Documents\app\App.Api\obj\Debug\net6.0\App.Api.pdb
 C:\Users\aluno.uri\Documents\app\App.Api\obj\Debug\net6.0\App.Api.genruntimeconfig.cache
 C:\Users\aluno.uri\Documents\app\App.Api\obj\Debug\net6.0\ref\App.Api.dll
+C:\Users\aluno.uri\Documents\app\App.Api\bin\Debug\net6.0\Newtonsoft.Json.dll

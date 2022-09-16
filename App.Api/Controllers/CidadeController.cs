@@ -1,4 +1,5 @@
-﻿using App.Domain.Entities;
+﻿using App.Domain.DTO;
+using App.Domain.Entities;
 using App.Domain.Interfaces.Application;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,21 +26,31 @@ namespace App.Api.Controllers
         [HttpGet("ListaCidades")]
         public JsonResult ListaCidades(string? nome, string? cep)
         {
-            return Json(_service.ListaCidades(nome, cep));
+            try
+            {
+                var obj = _service.ListaCidades(nome, cep);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
 
 
         [HttpPost("Salvar")]
-        public JsonResult Salva(string cep, string nome, string estado)
+        public JsonResult Salva([FromBody] Cidade obj)
         {
-            var objCidade = new Cidade
+            try
             {
-                Cep = cep,
-                Estado = estado,
-                Nome = nome
-            };
-            _service.Salvar(objCidade);
-            return Json(true);
+                _service.Salvar(obj);
+                return Json(RetornoApi.Sucesso(true));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
+             
         }
 
         [HttpDelete("Remover cidade por nome")]

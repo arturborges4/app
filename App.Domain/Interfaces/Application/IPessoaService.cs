@@ -11,7 +11,8 @@ namespace App.Domain.Interfaces.Application
     {
         Pessoa BuscaPorNome(string nome);
         void Remover(Guid id);
+        void RemoverPorNome(string nome);
         void Salvar(Pessoa obj);
-        List<Pessoa> ListaPessoas(string nome, int idade, char sexo);
+        List<Pessoa> ListaPessoas(string? nome, int? idade, char? sexo);
     }
 }

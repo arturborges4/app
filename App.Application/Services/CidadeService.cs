@@ -56,6 +56,7 @@ namespace App.Application.Services
             if (cidade != null)
             {
                 _repository.Delete(cidade.Id);
+                _repository.SaveChanges();
             }
             else
             {

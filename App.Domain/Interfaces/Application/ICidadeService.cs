@@ -12,7 +12,6 @@ namespace App.Domain.Interfaces.Application
         Cidade BuscaPorCep(string cep);
         void Remover(Guid id);
         void RemoverPorNome(string nome);
-
         void Salvar(Cidade obj);
         List<Cidade> ListaCidades(string? cep, string? nome);
     }

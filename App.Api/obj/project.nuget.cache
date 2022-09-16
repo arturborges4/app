@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v0PEx91lHhftF8YbZE8H9OUoKh3CkOQPmPuamvoUXemf6G7zPQDXYJvOCODnGH4iUiOyXGWjGwo4cwlI6TfvEA==",
+  "dgSpecHash": "LeZdbrt2xUqO2pk9sKBF4mswHKt1DvcDTkw0gU+yfQZ6ni7muPNkaCGm4QmffMNkfFHLrgZHyHxpF5/E2k9yQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aluno.uri\\Documents\\app\\App.Api\\App.Api.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\aluno.uri\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\aluno.uri\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\aluno.uri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\aluno.uri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\aluno.uri\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\aluno.uri\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
     "C:\\Users\\aluno.uri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
